@@ -1,0 +1,82 @@
+.text {
+  font-size: medium;
+}
+
+.Login_input {
+  outline: none;
+  border: none;
+  width: 370px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #edf5f3;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: Regular/400;
+}
+.error {
+  color: red;
+}
+.Login_content {
+  background: transparent;
+  background-color: #8179c7;
+  width: 520px;
+  margin-top: 100px;
+  border-radius: 40px;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  display: inline-block;
+}
+.Login_titile {
+  margin-top: 20px;
+}
+
+.btn_Login {
+  background-color: #18162b;
+  border-radius: 6px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.btn_Login:active {
+  background-color: #272252;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn_signUp {
+  margin-right: 80px;
+  background-color: #ffffff00;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn_signUp:active {
+  /* background-color: #49409A;
+      box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+
+.btn_forgot {
+  margin-left: 70px;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn_forgot:active {
+  /* background-color: #49409A;
+      box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
