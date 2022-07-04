@@ -87,8 +87,6 @@ module.exports = {
 
   editUserProfile: async (req, res) => {
     try {
-      console.log(req.body);
-
       const hash = bcrypt.hashSync(req.body.password, 10);
 
       User.findByIdAndUpdate(

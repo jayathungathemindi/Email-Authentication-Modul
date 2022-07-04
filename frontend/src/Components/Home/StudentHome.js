@@ -77,7 +77,7 @@ const StudentHome = () => {
               Add Note
             </Button>
             <Modal
-              title="Add User"
+              title="Add Note"
               visible={isModalVisible}
               onOk={handleOk}
               onCancel={handleCancel}
