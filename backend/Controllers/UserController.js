@@ -46,7 +46,7 @@ module.exports = {
 
               var mailOptions = {
                 from: "jayathungathemindi@gmail.com",
-                to: "keshannimnaka@gmail.com",
+                to: req.body.email,
                 subject: "Login Verification",
                 html: '<p>Click <a href="http://localhost:3000/SignIn">here</a> to login Your Password is 1234 ,After login you can change your passwoard</p>',
               };
@@ -160,7 +160,7 @@ module.exports = {
 
               var mailOptions = {
                 from: "jayathungathemindi@gmail.com",
-                to: "keshannimnaka@gmail.com",
+                to: req.body.email,
                 subject: "Login Verification",
                 html: '<p>Click <a href="http://localhost:3000/SignIn">here</a> to login Your Password is 1234 ,After login you can change your passwoard</p>',
               };
