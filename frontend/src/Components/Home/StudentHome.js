@@ -15,6 +15,12 @@ const StudentHome = () => {
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+  const handleLogOut = () => {
+    localStorage.removeItem("userId");
+    localStorage.removeItem("name");
+    localStorage.removeItem("accountType");
+    window.location = `/SignIn`;
+  };
 
   return (
     <div className="container-fluid welcome p-0">
@@ -37,6 +43,17 @@ const StudentHome = () => {
                   <a href="/NoteList" className="btn signin">
                     NoteList
                   </a>
+                </li>
+                <li>
+                  <button
+                    onClick={() => {
+                      handleLogOut();
+                    }}
+                    className="btn btn-dark"
+                  >
+                    {" "}
+                    Logout
+                  </button>
                 </li>
               </>
             </ul>
