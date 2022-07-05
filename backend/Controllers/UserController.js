@@ -35,8 +35,8 @@ module.exports = {
                 port: 465,
                 secure: true, // use TLS
                 auth: {
-                  user: "jayathungathemindi@gmail.com",
-                  pass: "bnhggdirspuozyxj",
+                  user: "themindhansani@gmail.com",
+                  pass: "bbiexikiphpjldbe",
                 },
                 tls: {
                   // do not fail on invalid certs
@@ -147,8 +147,8 @@ module.exports = {
                 port: 465,
                 secure: true, // use TLS
                 auth: {
-                  user: "jayathungathemindi@gmail.com",
-                  pass: "bnhggdirspuozyxj",
+                  user: "themindhansani@gmail.com",
+                  pass: "bbiexikiphpjldbe",
                 },
                 tls: {
                   // do not fail on invalid certs
